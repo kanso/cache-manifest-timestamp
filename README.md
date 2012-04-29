@@ -6,18 +6,20 @@ content since the last push occurred.
 
 ### Usage
 
-    // kanso.json
-    {
+```javascript
+// kanso.json
+{
+    ...
+    "attachments": [
         ...
-        "attachments": [
-            ...
-            "myproject.appcache"
-        ],
-        "cache_manifests": [
-            "myproject.appcache"
-        ],
-        "dependencies": {
-            ...
-            "cache-manfiest-timestamp": null
-        }
+        "myproject.appcache"
+    ],
+    "cache_manifests": [
+        "myproject.appcache"
+    ],
+    "dependencies": {
+        ...
+        "cache-manfiest-timestamp": null
     }
+}
+```
